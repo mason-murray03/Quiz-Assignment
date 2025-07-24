@@ -1,0 +1,54 @@
+body {
+    background-color: lightgray;
+}
+.quiz-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:disabled {
+    cursor: not-allowed;
+}
+.btn:hover:not([disabled]) {
+    background-color: black;
+    color: white;
+}
+.next-button {
+    display: block;
+    padding: 6px;
+    margin: 40px auto 10px;
+    cursor: pointer;
+}
+.next-button:disabled{
+    cursor: not-allowed;
+}
+.correct {
+    background-color: rgb(2, 209, 2);
+}
+.incorrect {
+    background-color: red;
+}
